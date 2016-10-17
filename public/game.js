@@ -450,7 +450,7 @@ function Register(){
             console.log('WooHoo!');
             // console.log(resp);
             $('body').append("<div id='lobby2'></div>")
-            $('#lobby2').append("You successfully registered! Go ahead and login: ")
+            $('#lobby2').append("You successfully registered! Go ahead and loginn: ")
             $('#lobby2').append("<input id='usernameL2' type='text'>")
             $('#lobby2').append("<input id='passwordL2' type='password'>")
             $('#lobby2').append("<button id='login2'onclick='Login()'>Login</button>")
